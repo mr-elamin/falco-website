@@ -18,6 +18,8 @@ This reference lists all supported Falco events for schema version 4.3.0. It is 
 | Plugin events | 1 | 1 |
 | Metaevents | 12 | 13 |
 
+The counts above are specific to Falco schema version 4.3.0 and should be updated whenever this reference is regenerated.
+
 ## Syscall events
 
 To improve scanability, syscall events are split into smaller alphabetical sections while preserving the full original reference content.
@@ -34,8 +36,8 @@ To improve scanability, syscall events are split into smaller alphabetical secti
 
 ### Detailed syscall reference
 
-#### Syscall events Underscore-prefixed
 <a id="syscall-events-underscore-prefixed"></a>
+#### Syscall events Underscore-prefixed
 
 Default | Dir | Name | Params 
 :-------|:----|:-----|:-----
@@ -44,8 +46,8 @@ Yes | `<` | `_newselect` | SYSCALLID **ID**, UINT16 **nativeID**
 Yes | `>` | `_sysctl` | SYSCALLID **ID**, UINT16 **nativeID**
 Yes | `<` | `_sysctl` | SYSCALLID **ID**, UINT16 **nativeID**
 
-#### Syscall events A-E
 <a id="syscall-events-ae"></a>
+#### Syscall events A-E
 
 Default | Dir | Name | Params 
 :-------|:----|:-----|:-----
@@ -123,8 +125,8 @@ Yes | `<` | `exit` | SYSCALLID **ID**, UINT16 **nativeID**
 Yes | `>` | `exit_group` | SYSCALLID **ID**, UINT16 **nativeID**
 Yes | `<` | `exit_group` | SYSCALLID **ID**, UINT16 **nativeID**
 
-#### Syscall events F-L
 <a id="syscall-events-fl"></a>
+#### Syscall events F-L
 
 Default | Dir | Name | Params 
 :-------|:----|:-----|:-----
@@ -330,8 +332,8 @@ Yes | `<` | `lsm_set_self_attr` | SYSCALLID **ID**, UINT16 **nativeID**
 Yes | `<` | `lstat` | ERRNO **res**, FSPATH **path**
 Yes | `<` | `lstat64` | ERRNO **res**, FSPATH **path**
 
-#### Syscall events M-R
 <a id="syscall-events-mr"></a>
+#### Syscall events M-R
 
 Default | Dir | Name | Params 
 :-------|:----|:-----|:-----
@@ -538,8 +540,8 @@ Yes | `<` | `rt_tgsigqueueinfo` | SYSCALLID **ID**, UINT16 **nativeID**
 Yes | `>` | `rtas` | SYSCALLID **ID**, UINT16 **nativeID**
 Yes | `<` | `rtas` | SYSCALLID **ID**, UINT16 **nativeID**
 
-#### Syscall events S-Z
 <a id="syscall-events-sz"></a>
+#### Syscall events S-Z
 
 Default | Dir | Name | Params 
 :-------|:----|:-----|:-----
